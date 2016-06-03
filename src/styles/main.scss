@@ -1,0 +1,49 @@
+/* ----------------------------------------------------------------------
+ITCSS: SCALABLE AND MAINTAINABLE CSS ARCHITECTURE
+From the works of Harry Roberts (author of the Inuit CSS framework)
+ITCSS’s prescriptive nature especially when combined with BEMIT naming convention
+allows you to focus more on solving front-end challenges rather than thinking up
+names and styles location
+Learn more:
+* ITCSS: http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731
+* BEM Naming Convention: https://css-tricks.com/bem-101/
+---------------------------------------------------------------------- */
+
+// Settings And Tools ---------------------------------------------------
+// Global variables, config switches
+@import "settings/settings"; // TEMP ONLY
+
+
+// Tools ----------------------------------------------------------------
+// Default mixins and functions
+// e.g. any functions and mixins that use settings
+@import "tools/tools"; // TEMP ONLY
+
+
+// Generic --------------------------------------------------------------
+// Ground zero styles
+// e.g. Normalise, resets, box sizing
+@import "generic/generic"; // TEMP ONLY
+
+
+// Base -----------------------------------------------------------------
+// Unclassed HTML elements (type selectors)
+// e.g blockquote
+@import "base/base"; // TEMP ONLY
+
+
+// Objects --------------------------------------------------------------
+// Cosmetic-free design patterns
+// e.g. .media (image left, text right)
+@import "objects/objects"; // TEMP ONLY
+
+
+// Components -----------------------------------------------------------
+// Designed components, chunks of UI
+// e.g. .button
+@import "components/components"; // TEMP ONLY
+
+
+// Utilities / Trumps ---------------------------------------------------
+// Class helpers and overrides
+@import "trumps/trumps"; // TEMP ONLY
