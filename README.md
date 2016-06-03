@@ -3,33 +3,39 @@ Base skeleton for starting new projects with prebuilt common npm script builds/w
 
 ## Install
 
-**Install Global CLI Tools**
+**Install Global CLI Tools:**
+
 Run `npm install -g cucumber`
 
-**Install Local Packages**
+**Install Local Packages:**
+
 Run `npm install`
 
 ## Development
 
-**Run all dev builds/workflows**
+**Run all dev builds/workflows:**
+
 Run all the development commands to update to the latest
 
 Run `npm run dev`
 
-**Node Sass**
+**Node Sass:**
+
 Build the css files
 
 Run `npm run dev:sass`
 
-**jsHint**
+**jsHint:**
+
 Validate the javascript source/src files
 
 Run `npm run dev:jshint`
 
-**Watch**
+**Watch:**
+
 Watch for any updates that effect the development files and run appropriate commands
 
 Run `npm run watch`
 
-## Production Workflow
+## Production
 TODO...
