@@ -19,12 +19,12 @@
   },
   "scripts": {
     "build": "",
-
     "dev": "npm-run-all --parallel dev:*",
-      "dev:sass": "node-sass --output-style expanded src/styles/main.scss public/assets/styles/main.css",
-      "dev:jshint": "jshint src/scripts/index.js",
-      "dev:watch": "npm-watch",
-      
+    "dev:sass": "node-sass --output-style expanded src/styles/main.scss public/assets/styles/main.css",
+    "dev:jshint": "jshint src/scripts/index.js",
+
+    "watch": "npm-watch",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -45,6 +45,7 @@
   },
   "homepage": "https://github.com/HammyNZ/base-skeleton#readme",
   "devDependencies": {
+    "cucumber": "^1.0.0",
     "jshint": "^2.9.2",
     "node-sass": "^3.7.0",
     "npm-run-all": "^2.1.1",

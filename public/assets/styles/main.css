@@ -1,3 +1,14 @@
+@charset "UTF-8";
+/* ----------------------------------------------------------------------
+ITCSS: SCALABLE AND MAINTAINABLE CSS ARCHITECTURE
+From the works of Harry Roberts (author of the Inuit CSS framework)
+ITCSS’s prescriptive nature especially when combined with BEMIT naming convention
+allows you to focus more on solving front-end challenges rather than thinking up
+names and styles location
+Learn more:
+* ITCSS: http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731
+* BEM Naming Convention: https://css-tricks.com/bem-101/
+---------------------------------------------------------------------- */
 html {
   background: #fff;
 }
